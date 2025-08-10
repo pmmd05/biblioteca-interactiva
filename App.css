@@ -1,0 +1,39 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 2rem;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.lista-libros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card-libro {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.card-libro:hover {
+  transform: translateY(-5px);
+}
+.card-libro h3 {
+  margin-top: 0;
+}
+.card-libro a {
+ text-decoration: none;
+  color: #007bff;
+}
