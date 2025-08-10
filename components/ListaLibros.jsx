@@ -5,7 +5,7 @@ import '../App.css';                        // Importa estilos de la aplicación
 
 function ListaLibros() { 
     // Extrae el array de categorías desde el JSON
-    const categorias = libros.categorias;
+    const categorias = libros.libros.categorias;
     // Estado para el tema seleccionado en el filtro; inicia en 'Todos'
     const [filtro, setFiltro] = useState('Todos');
 
